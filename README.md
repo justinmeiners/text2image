@@ -1,23 +1,18 @@
 # text2image
 
-Render images of text with this tiny command line tool.
-~300k binary with no external dependencies.
-
-- Simple CAPTCHAs
-- Spam safe emails
-- Rendering special fonts
-
-Thanks to Sean Barret's [stb libraries][2]
-
-## Usage
-
-**Simple:**
-
     echo "bob@email.com" | text2image > out.png
 
 ![sample image](sample.png)
 
-**Full Usage:**
+Render images of text with this tiny, fast, tool.
+~300k binary with no external dependencies.
+Useful for:
+
+- Simple CAPTCHAs
+- Spam resistant email display
+- Rendering special fonts
+
+## Usage
 
     echo "bob@email.com" | text2image --height 64 --font font.ttf --invert --out text.png
 
