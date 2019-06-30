@@ -1,9 +1,5 @@
 # text2image
 
-    echo "bob@email.com" | text2image > out.png
-
-![sample image](sample.png)
-
 Render images of text with this tiny, fast, tool.
 ~300k binary with no external dependencies.
 Useful for:
@@ -11,6 +7,10 @@ Useful for:
 - Simple CAPTCHAs
 - Spam resistant email display
 - Rendering special fonts
+
+    echo "bob@email.com" | text2image > out.png
+
+![sample image](sample.png)
 
 ## Usage
 
