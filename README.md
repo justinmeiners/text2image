@@ -15,7 +15,7 @@ Thanks to Sean Barret's [stb libraries][2]
 
     echo "bob@email.com" | text2image > out.png
 
-[sample image](sample.png)
+![sample image](sample.png)
 
 **Full Usage:**
 
