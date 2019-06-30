@@ -1,14 +1,15 @@
 # text2image
 
-Convert text to images with this simple command line tool.
-~300k bNo external dependencies.
+Render images of text with this tiny command line tool.
+~300k binary with no external dependencies.
 
 - Simple CAPTCHAs
-- Displaying emails
+- Spam safe emails
+- Rendering special fonts
 
 Thanks to Sean Barret's [stb libraries][2]
 
-## How does it work?
+## Usage
 
 **Simple:**
 
