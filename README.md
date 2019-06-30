@@ -1,6 +1,6 @@
 # text2image
 
-Render images of text with this tiny, fast, tool.
+Render text to images with this tiny command line tool.
 ~300k binary with no external dependencies.
 Useful for:
 
@@ -25,9 +25,17 @@ Useful for:
     --invert	draw white text on black background.
     --help	show the help text.
 
-### What if I need more features?
+### FAQ
+
+**What if I need more features?**
 
 Look at [ImageMagick][1].
+
+**What about just support for multiline text?**
+
+I am on the fence on this one.
+It could be easily done, but then I also have to do text alignment.
+If you have a compelling use case, tell me about it.
 
 ## Project License
 
