@@ -8,11 +8,13 @@ Useful for:
 - Spam resistant email display
 - Rendering special fonts
 
+## Usage
+
     echo "bob@email.com" | text2image > out.png
 
 ![sample image](sample.png)
 
-## Usage
+### Options
 
     echo "bob@email.com" | text2image --height 64 --font font.ttf --invert --out text.png
 
