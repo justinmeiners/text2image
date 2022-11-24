@@ -1,5 +1,5 @@
 text2image: text2image.c stb_image_write.h stb_truetype.h cmunrm.h
-	gcc -Os text2image.c -o $@
+	gcc -Os text2image.c -o $@ -lm
 
 cmunrm.h: 
 	xxd -i font/cmunrm.ttf > cmunrm.h
